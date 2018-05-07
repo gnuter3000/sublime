@@ -16,7 +16,10 @@ This is a short overview of sublime preferences as a python development environm
 * for virtual env in python use the build system
 
 ## Keyboard Shortcuts
+n the "Preferences->Key Bindings - User"
 ```bash
-{ "keys": ["ctrl+/"], "command": "toggle_comment", "args": { "block": false } },
-{ "keys": ["ctrl+shift+/"], "command": "toggle_comment", "args": { "block": true } },
+[
+   { "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },
+   { "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } }
+]
 ```
